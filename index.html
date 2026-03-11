@@ -1,55 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Himantveer Kaur - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Himantveer Kaur | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-  <div class="container">
-    <h1>Himantveer Kaur</h1>
-    <p class="subtitle">B.Tech CSE, Thapar Institute of Engineering & Technology (2024 – 2028)</p>
 
-    <section>
-      <h2>Contact</h2>
-      <p>Email: hkaur10_be24@thapar.edu</p>
-      <p>Phone: +91 7986959058</p>
-      <p>Location: Bathinda, India</p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/himantveer-kaur-50742b285" target="_blank">himantveer-kaur</a></p>
-    </section>
+<div id="progressBar"></div>
 
-    <section>
-      <h2>Skills</h2>
-      <p><strong>Languages:</strong> C, Python (basics), HTML, CSS, JavaScript</p>
-      <p><strong>Tools:</strong> VS Code, GitHub, Git (basics)</p>
-      <p><strong>Soft Skills:</strong> Quick learner, Problem-solving, Time management</p>
-    </section>
+<header>
 
-    <section>
-      <h2>Projects</h2>
-      <div class="project">
-        <h3>Tic-Tac-Toe Game (C)</h3>
-        <p>Developed a clean, 2-player turn-based tic-tac-toe game using standard C.</p>
-      </div>
-      <div class="project">
-        <h3>Encoder Decoder Application (Kotlin)</h3>
-        <p>Built a basic program to encode and decode custom user text using simple shift and pattern logic.</p>
-      </div>
-      <div class="project">
-        <h3>OCR (Optical Character Recognition) System</h3>
-        <p>Made an OCR project that extracts text from images and explored how computers detect and recognize characters.</p>
-      </div>
-      <div class="project">
-        <h3>Portfolio Website (HTML, CSS, JavaScript)</h3>
-        <p>Designed and built a personal portfolio website to showcase my projects and skills using HTML, CSS and JavaScript.</p>
-      </div>
-    </section>
-  </div>
-  <footer>
-  Made with HTML, CSS, and JS &#128153;
-</footer>
+<nav class="navbar">
+
+<h2 class="logo">Himantveer Kaur</h2>
+
+<ul class="nav-links">
+<li><a href="#home" class="nav-link">Home</a></li>
+<li><a href="#skills" class="nav-link">Skills</a></li>
+<li><a href="#projects" class="nav-link">Projects</a></li>
+<li><a href="#education" class="nav-link">Education</a></li>
+<li><a href="#contact" class="nav-link">Contact</a></li>
+</ul>
+
+<button id="themeToggle">🌙</button>
+
+</nav>
+
+</header>
+
+<section id="home" class="hero">
+
+<h1>Hello, I'm <span>Himantveer Kaur</span></h1>
+
+<h2 class="typing"></h2>
+
+<p>
+2nd year Computer Science student passionate about Web Development,
+Machine Learning and Data Science.
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<div class="skill">
+<p>C++</p>
+<div class="bar"><div style="width:90%"></div></div>
+</div>
+
+<div class="skill">
+<p>Python</p>
+<div class="bar"><div style="width:85%"></div></div>
+</div>
+
+<div class="skill">
+<p>Java</p>
+<div class="bar"><div style="width:80%"></div></div>
+</div>
+
+<div class="skill">
+<p>JavaScript</p>
+<div class="bar"><div style="width:85%"></div></div>
+</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div id="projectsContainer" class="projects-container"></div>
+
+</section>
+
+<section id="education">
+
+<h2>Education</h2>
+
+<div class="education-card">
+
+<h3>Thapar Institute of Engineering & Technology</h3>
+
+<p>B.E. Computer Science & Engineering</p>
+
+<p>CGPA: 9.88 / 10</p>
+
+<p>2024 – 2028</p>
+
+<ul>
+<li>Ranked 1st in First Year B.E. CSE</li>
+<li>Thapar Merit-1 Scholarship Recipient</li>
+</ul>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>Email: hkaur10_be24@thapar.edu</p>
+
+<div class="links">
+
+<a href="https://github.com/Himmat913" target="_blank">GitHub</a>
+<a href="https://linkedin.com" target="_blank">LinkedIn</a>
+
+</div>
+
+</section>
+
 <script src="script.js"></script>
 
 </body>
